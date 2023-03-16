@@ -52,7 +52,7 @@
         },
         "font-family": {
           "primary": {
-            "value": "Source Serif Pro, Tahoma, Verdana, sans-serif",
+            "value": "Calibri, Tahoma, Verdana, sans-serif",
             "type": "fontFamilies"
           },
           "secondary": {
@@ -922,7 +922,7 @@
         },
         "color": {
           "type": "color",
-          "value": "{pra.color.gray.900}"
+          "value": "{pra.color.violet.700}"
         },
         "inverse": {
           "background-color": {
@@ -2363,6 +2363,28 @@
           "type": "borderWidth"
         }
       },
+      "counter-badge": {
+        "border-radius": {
+          "type": "borderRadius",
+          "value": "{pra.border-radius.round}"
+        },
+        "background-color": {
+          "value": "{pra.color.violet.500}",
+          "type": "color"
+        },
+        "color": {
+          "value": "{pra.color.white}",
+          "type": "color"
+        },
+        "padding-block": {
+          "value": "{pra.space.block.ant}",
+          "type": "spacing"
+        },
+        "padding-inline": {
+          "value": "{pra.space.block.ant}",
+          "type": "spacing"
+        }
+      },
       "form-field-error-message": {
         "icon": {
           "size": {
@@ -2490,7 +2512,7 @@
       "heading-1": {
         "color": {
           "type": "color",
-          "value": "{utrecht.document.color}"
+          "value": "{pra.color.red.500}"
         },
         "font-family": {
           "value": "{utrecht.heading.font-family}",
