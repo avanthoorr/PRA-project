@@ -3,6 +3,10 @@
     "voorbeeld": {
       "typography": {
         "font-size": {
+          "xs": {
+            "value": "12px",
+            "type": "fontSizes"
+          },
           "sm": {
             "value": "14px",
             "type": "fontSizes"
@@ -62,11 +66,11 @@
         },
         "font-family": {
           "primary": {
-            "value": "Source Serif Pro, Tahoma, Verdana, sans-serif",
+            "value": "RijksoverheidSansText, Calibri, Tahoma, Verdana, sans-serif",
             "type": "fontFamilies"
           },
           "secondary": {
-            "value": "Fira Sans, Tahoma, Verdana, sans-serif",
+            "value": "RijksoverheidSansText, Calibri, Fira Sans, Tahoma, Verdana, sans-serif",
             "type": "fontFamilies"
           }
         }
