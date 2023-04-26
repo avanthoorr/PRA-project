@@ -517,6 +517,42 @@
               "type": "color"
             }
           }
+        },
+        "primary": {
+          "300": {
+            "value": "#3D526A",
+            "type": "color"
+          },
+          "400": {
+            "value": "#0D2745",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "400": {
+            "value": "#4848FF",
+            "type": "color"
+          }
+        },
+        "tertiary": {
+          "400": {
+            "value": "#FF9213",
+            "type": "color"
+          }
+        },
+        "accent": {
+          "blue": {
+            "400": {
+              "value": "#79B9FF",
+              "type": "color"
+            }
+          },
+          "green": {
+            "400": {
+              "value": "#79FFD7",
+              "type": "color"
+            }
+          }
         }
       },
       "space": {
