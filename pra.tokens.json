@@ -738,6 +738,10 @@
           "completed": {
             "value": "#e1eddb",
             "type": "color"
+          },
+          "purple": {
+            "value": "#ffffff",
+            "type": "color"
           }
         }
       },
