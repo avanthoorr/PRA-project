@@ -907,6 +907,16 @@
           "type": "boxShadow"
         }
       }
+    },
+    "pra": {
+      "color": {
+        "secondary": {
+          "100": {
+            "value": "red",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "common": {
