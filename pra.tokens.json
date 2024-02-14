@@ -11,12 +11,20 @@
             "value": "16px",
             "type": "fontSizes"
           },
+          "2md": {
+            "value": "18px",
+            "type": "fontSizes"
+          },
           "lg": {
             "value": "20px",
             "type": "fontSizes"
           },
           "xl": {
             "value": "24px",
+            "type": "fontSizes"
+          },
+          "xxl": {
+            "value": "30px",
             "type": "fontSizes"
           },
           "2xl": {
@@ -48,26 +56,6 @@
           "lg": {
             "value": "200%",
             "type": "lineHeights"
-          }
-        },
-        "font-weight": {
-          "normal": {
-            "value": "Regular",
-            "type": "fontWeights"
-          },
-          "bold": {
-            "value": "Bold",
-            "type": "fontWeights"
-          }
-        },
-        "font-family": {
-          "primary": {
-            "value": "Source Serif Pro, Tahoma, Verdana, sans-serif",
-            "type": "fontFamilies"
-          },
-          "secondary": {
-            "value": "Fira Sans, Tahoma, Verdana, sans-serif",
-            "type": "fontFamilies"
           }
         }
       },
@@ -909,11 +897,255 @@
       }
     },
     "pra": {
+      "typography": {
+        "font-weight": {
+          "normal": {
+            "value": "Regular",
+            "type": "fontWeights"
+          },
+          "bold": {
+            "value": "Bold",
+            "type": "fontWeights"
+          }
+        },
+        "font-family": {
+          "primary": {
+            "value": "RijksoverheidSansHeading, Calibri, Arial",
+            "type": "fontFamilies"
+          },
+          "secondary": {
+            "value": "RijksoverheidText, Calibri, Arial",
+            "type": "fontFamilies"
+          },
+          "tertiary": {
+            "value": "RijksoverheidSerif, Times new Roman",
+            "type": "fontFamilies"
+          }
+        }
+      },
       "color": {
+        "neutrals": {
+          "white": {
+            "value": "#ffffff",
+            "type": "color"
+          }
+        },
+        "semantic": {
+          "warning": {
+            "value": "#fff4db",
+            "type": "color"
+          },
+          "error": {
+            "value": "#f9dfdd",
+            "type": "color"
+          },
+          "information": {
+            "value": "#d9ebf7",
+            "type": "color"
+          },
+          "completed": {
+            "value": "#e1eddb",
+            "type": "color"
+          }
+        },
+        "primary": {
+          "100": {
+            "value": "#e7e9ec",
+            "type": "color"
+          },
+          "200": {
+            "value": "#CFD4DA",
+            "type": "color"
+          },
+          "300": {
+            "value": "#9EA9B5",
+            "type": "color"
+          },
+          "400": {
+            "value": "#6E7D8F",
+            "type": "color"
+          },
+          "500": {
+            "value": "#253D58",
+            "type": "color"
+          },
+          "600": {
+            "value": "#0D2745",
+            "type": "color"
+          },
+          "700": {
+            "value": "#0A1F37",
+            "type": "color"
+          }
+        },
         "secondary": {
           "100": {
-            "value": "red",
+            "value": "#ebebfd",
             "type": "color"
+          },
+          "200": {
+            "value": "#D7D7FC",
+            "type": "color"
+          },
+          "300": {
+            "value": "#AFAFF8",
+            "type": "color"
+          },
+          "400": {
+            "value": "#8787F5",
+            "type": "color"
+          },
+          "500": {
+            "value": "#5F5FF1",
+            "type": "color"
+          },
+          "600": {
+            "value": "#3737EE",
+            "type": "color"
+          },
+          "700": {
+            "value": "#3232D6",
+            "type": "color"
+          },
+          "800": {
+            "value": "#2727A7",
+            "type": "color"
+          },
+          "900": {
+            "value": "#1C1C77",
+            "type": "color"
+          },
+          "1000": {
+            "value": "#0B0B30",
+            "type": "color"
+          }
+        },
+        "tertiary": {
+          "100": {
+            "value": "#fff4e7",
+            "type": "color"
+          },
+          "200": {
+            "value": "#FFE9D0",
+            "type": "color"
+          },
+          "300": {
+            "value": "#FFD3A1",
+            "type": "color"
+          },
+          "400": {
+            "value": "#FFBE71",
+            "type": "color"
+          },
+          "500": {
+            "value": "#FFA842",
+            "type": "color"
+          },
+          "600": {
+            "value": "#FF9213",
+            "type": "color"
+          },
+          "700": {
+            "value": "#CC750F",
+            "type": "color"
+          },
+          "800": {
+            "value": "#99580B",
+            "type": "color"
+          },
+          "900": {
+            "value": "#663A08",
+            "type": "color"
+          },
+          "1000": {
+            "value": "#331D04",
+            "type": "color"
+          }
+        },
+        "accent": {
+          "blue": {
+            "100": {
+              "value": "#f2f8ff",
+              "type": "color"
+            },
+            "200": {
+              "value": "#E4F1FF",
+              "type": "color"
+            },
+            "300": {
+              "value": "#C9E3FF",
+              "type": "color"
+            },
+            "400": {
+              "value": "#AFD5FF",
+              "type": "color"
+            },
+            "500": {
+              "value": "#94C7FF",
+              "type": "color"
+            },
+            "600": {
+              "value": "#79B9FF",
+              "type": "color"
+            },
+            "700": {
+              "value": "#6194CC",
+              "type": "color"
+            },
+            "800": {
+              "value": "#496F99",
+              "type": "color"
+            },
+            "900": {
+              "value": "#304A66",
+              "type": "color"
+            },
+            "1000": {
+              "value": "#182533",
+              "type": "color"
+            }
+          },
+          "green": {
+            "100": {
+              "value": "#effaf7",
+              "type": "color"
+            },
+            "200": {
+              "value": "#DFF5EE",
+              "type": "color"
+            },
+            "300": {
+              "value": "#C0EBDE",
+              "type": "color"
+            },
+            "400": {
+              "value": "#A0E0CD",
+              "type": "color"
+            },
+            "500": {
+              "value": "#81D6BD",
+              "type": "color"
+            },
+            "600": {
+              "value": "#61CCAC",
+              "type": "color"
+            },
+            "700": {
+              "value": "#4EA38A",
+              "type": "color"
+            },
+            "800": {
+              "value": "#3A7A67",
+              "type": "color"
+            },
+            "900": {
+              "value": "#275245",
+              "type": "color"
+            },
+            "1000": {
+              "value": "#132922",
+              "type": "color"
+            }
           }
         }
       }
@@ -953,7 +1185,7 @@
           }
         },
         "font-family": {
-          "value": "{voorbeeld.typography.font-family.secondary}",
+          "value": "{pra.typography.font-family.secondary}",
           "type": "fontFamilies"
         },
         "font-size": {
@@ -961,12 +1193,12 @@
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.normal}",
+          "value": "{pra.typography.font-weight.normal}",
           "type": "fontWeights"
         },
         "strong": {
           "font-weight": {
-            "value": "{voorbeeld.typography.font-weight.bold}",
+            "value": "{pra.typography.font-weight.bold}",
             "type": "fontWeights"
           }
         },
@@ -981,11 +1213,11 @@
           "type": "color"
         },
         "font-family": {
-          "value": "{voorbeeld.typography.font-family.primary}",
+          "value": "{pra.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.bold}",
+          "value": "{pra.typography.font-weight.bold}",
           "type": "fontWeights"
         }
       },
